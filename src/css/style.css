@@ -1,0 +1,204 @@
+@font-face {
+    font-family: "Gotham Black";
+    src: url("fonts/gotham-black.woff") format('woff');
+	src: url("fonts/gotham-black.ttf") format('truetype');
+}
+/*navbar*/
+
+.download{
+border-radius:17px;
+border: 2px solid #ffcb32;
+color:#ffcb32;
+}
+
+span.app{
+margin-left:12px;
+color:#ffcb32;
+
+}
+
+.nav{
+font-family:"Lato";
+font-style:normal;
+}
+
+a.navbar-brand{
+margin-top:-11px;
+margin-left:0px;
+}
+
+ul.nav{
+margin-right:100px;
+}
+/*end navbar*/
+
+
+/*first section*/
+
+h1.main {
+font-family:"Gotham Black";
+}
+.section-main{
+padding-top:50px;
+}
+
+h1.main{
+color:#30b26a;
+}
+/* end first section*/
+
+
+/* second section*/
+
+.section-connect{
+background-color:#30b26a;
+padding-top:50px;
+padding-bottom:50px;
+}
+
+h1.connect{
+color:#ffcb32;
+font-family:"Gotham Black";
+margin-left:50px;
+}
+
+span.connectclass{
+margin-left:18px;
+}
+
+span.connect{
+margin-left:100px;
+}
+
+img.connect{
+-webkit-animation-delay: 3s;
+}
+/* end second section*/
+
+/* third section*/
+.section-discover{
+background-color:#ffcb32;
+padding-top:50px;
+padding-bottom:50px;
+}
+
+h1.discover{
+color:#30b26a;
+font-family:"Gotham Black";
+}
+
+img.discover{
+-webkit-animation-delay: 8s;
+ -webkit-animation-duration: 5s;
+   -webkit-animation-iteration-count: 5;
+
+}
+/* end third section*/
+
+
+
+/* fourth section*/
+
+.section-share{
+background-color:#30b26a;
+padding-top:50px;
+padding-bottom:50px;
+}
+
+span.share{
+margin-left:152px;
+}
+
+h1.share{
+color:#ffcb32;
+font-family:"Gotham Black";
+margin-left:30px;
+}
+span.shareclass{
+margin-left:55px;
+}
+
+/* end fourth section*/
+
+
+
+/* fifth section*/
+.section-clients{
+padding-top:50px;
+padding-bottom:50px;
+}
+
+h1.clients{
+text-align:center;
+color:#30b26a;
+font-family:"Gotham Black";
+-webkit-animation-delay: 12s;
+-webkit-animation-duration: 3.5s;
+  -webkit-animation-iteration-count: 3;
+}
+
+
+img.clients{
+padding-left:60px;
+padding-top:75px;
+
+}
+
+.client-lower{
+text-align:center;
+padding-bottom:50px;
+padding-top:75px;
+}
+
+a.client-lower{
+color:#30b26a;
+}
+/* end fifth section*/
+
+
+/* footer section*/
+h1.endfooter{
+color:#ffcb32;
+font-family:"Gotham Black";
+-webkit-animation-delay: 15s;
+-webkit-animation-iteration-count: 3;
+-webkit-animation-duration: 2s;
+}
+
+.section-footer{
+background-color:#333333;
+padding-top:50px;
+padding-bottom:50px;
+}
+
+
+p.endfooter{
+color:white;
+}
+
+.footermail{
+color:#ffcb32;
+}
+/* end footer section*/
+
+p{
+font-family:"Lato";
+font-weight:300;
+
+}
+
+
+.apple-button{
+margin-top:20px;
+}
+
+/*Responsive Headings*/
+
+@media screen and (max-width: 500px) {
+    span.connect{
+        margin-left:0px;
+    }
+	span.share{
+	margin-left:0px;
+	}
+}
